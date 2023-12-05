@@ -1,0 +1,161 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    /*font-family: "Roboto", sans-serif; */
+    font-family: "Roboto Flex", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+    height: 100%;
+  }
+  li {
+    list-style: none;
+  }
+
+  /*.img {
+    border-radius:100%;
+  }*/
+
+  /*.img-carree {
+    clip-path:ellipse(50% 50%);
+    }*/
+
+
+  #img01 {
+    display:block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-size:cover;
+    background-position: center center;
+    background-image: linear-gradient(to right, rgba(31, 191, 184, 0.54), rgba(25, 120, 165, 0.54)), url("img/visit.jpg");
+    /*background-image: linear-gradient(to right, rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("img/visit.jpg");*/
+    /*-moz-border-radius:50px;
+    border-radius:50px;*/
+  }
+
+  #img02 {
+    display:block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-size:cover;
+    background-position: right;
+    background-color: #1978a5;
+    background-image: url(img/price.jpg);
+    background-image: linear-gradient(to right, rgba(25, 120, 165, 0.54), rgba(25, 120, 165, 0.54)), url("img/price.jpg");
+  }
+
+  #img03 {
+    display:block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-size:cover;
+    background-position: center center ;
+    background-color: #031163;
+    background-image: url(img/training.jpg);
+    background-image: linear-gradient(to right, rgba(3, 17, 99, 0.54), rgba(23, 17, 99, 0.54)), url("img/training.jpg");
+  }
+
+
+ 
+  .bubble-content-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+  }
+
+  .bubble-content-box #p1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    margin-bottom:0px;
+    margin-top: 0px;
+    text-align: center;
+    align-items: center;
+    color:#ffffff;
+    background-color: #1FBFB8;
+    font-size: x-small;
+    width: 75px;
+    height: 75px;
+  }
+
+  .bubble-content-box #p2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    margin-bottom:0px;
+    margin-top: 0px;
+    text-align: center;
+    align-items: center;
+    color:#ffffff;
+    background-color: #1978a5;
+    font-size: x-small;
+    width: 75px;
+    height: 75px;
+  }
+
+  .bubble-content-box #p3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    margin-bottom:0px;
+    margin-top: 0px;
+    text-align: center;
+    align-items: center;
+    color:#ffffff;
+    background-color: #031163;
+    font-size: x-small;
+    width: 75px;
+    height: 75px;
+  }
+  
+  .bubble-shape {
+    width: 150px;
+    height:150px;
+    border-radius:75px 75px 0px 75px;
+  }
+
+  header {
+    background-image: url("img/banner.jpg");
+    background-size: cover;
+    color: #ffffff;
+  }
+  
+  .bg-fiftyBlueGradient {
+    /* on fait un degradé de la gauche vers la droite 
+    on utilise rgba pour gérer la couche de transparence(alpha)
+    rgba( red, green, blue, alpha)
+    (en francais rgb = rvb )
+    */
+    background: linear-gradient(
+      to right,
+      rgba(31, 191, 184, 0.54),
+      rgba(25, 120, 165, 0.54),
+      rgba(3, 17, 99, 0.54)
+    );
+  }
+
+
+  .mainTitle {
+    padding: 5%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .mainTitle > h1 {
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+  }
+  
+  #mainNav > ul > li > a > img {
+    max-width: 100px;
+  }
+
+  .wrapper {
+    min-height: 80%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
